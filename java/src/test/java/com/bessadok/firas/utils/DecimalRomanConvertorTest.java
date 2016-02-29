@@ -69,4 +69,19 @@ public class DecimalRomanConvertorTest {
 	public void test_1000_M() {
 		assertEquals("M", DecimalRomanConvertor.roman(1000));
 	}
+
+	@Test
+	public void test_1954_MCMLIV() {
+		assertEquals("MCMLIV", DecimalRomanConvertor.roman(1954));
+	}
+
+	@Test
+	public void test_1990_MCMXC() {
+		assertEquals("MCMXC", DecimalRomanConvertor.roman(1990));
+	}
+
+	@Test
+	public void test_2016_MMXVI() {
+		assertEquals("MMXVI", DecimalRomanConvertor.roman(2016));
+	}
 }
