@@ -9,4 +9,12 @@ var convertor = {
   X:10,
   V:5,
   I:1};
+
+for (var roman in convertor) {
+  var decimal = convertor[roman];
+	while (nbr >= decimal) {
+      document.write(roman);
+      nbr -= decimal;
+    }
+}
 </script>
