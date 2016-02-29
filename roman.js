@@ -1,4 +1,3 @@
-<script>
 function roman(nbr) {
   var convertor = {
     M:1000,
@@ -25,6 +24,3 @@ function roman(nbr) {
   }
   return result;
 }
-
-document.write(roman(1954));
-</script>
