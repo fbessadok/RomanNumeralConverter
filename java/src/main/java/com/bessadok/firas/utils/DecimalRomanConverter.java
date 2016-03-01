@@ -3,7 +3,7 @@ package com.bessadok.firas.utils;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class DecimalRomanConvertor {
+public class DecimalRomanConverter {
 
 	private static Map<String, Integer> convertor = new LinkedHashMap<String, Integer>();
 
@@ -23,7 +23,7 @@ public class DecimalRomanConvertor {
 		convertor.put("I", 1);
 	}
 
-	private DecimalRomanConvertor() {};
+	private DecimalRomanConverter() {};
 
 	public static String roman(int nbr) {
 		String result = "";
